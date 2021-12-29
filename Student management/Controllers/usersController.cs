@@ -14,7 +14,7 @@ namespace Student_management.Controllers
     {
         private StudentmanagementEntities1 db = new StudentmanagementEntities1();
 
-        // GET: users
+        // GET: user
         public ActionResult Index()
         {
             return View(db.users.ToList());
